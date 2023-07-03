@@ -3,7 +3,7 @@ import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { Projects } from "./components/Projects";
 import { Websites } from "./components/Websites";
-import { CodingJourney } from "./components/CodingJourney"; 
+import { CodingJourney } from "./components/CodingJourney";
 import { Contact } from "./components/Contact";
 import "./css/App.css"
 
@@ -16,9 +16,6 @@ function App() {
       <Websites />
       <CodingJourney />
       <Contact />
-
-      {/* <p>This is the app</p> */}
-      
     </div>
   );
 }
